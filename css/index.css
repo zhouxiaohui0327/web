@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;
+}
+h1 , h2 , h3 , h4 , h5 , h6 ,p{
+    margin: 0;
+}
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+.w-1280{
+    max-width:1280px;
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+header .nav_bar{
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    list-style: none;
+    z-index:1;
+}
+header .nav_bar li{
+    display: inline-block;
+    margin-right: 30px;
+}
+header .nav_bar li a{
+    color: white;
+    font-size: 20px;
+}
+header .nav_bar li a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+}
+.header img{
+    /*width: 100%;*/
+}
+.header .tab_pic{
+    position: absolute;
+    top: 0;
+}
+
+
+/*...............header/end..........*/
+
+
+.content{
+    width: 100%;
+}
+.content .content_above{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.content .content_above .line{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.content .content_above h3{
+    margin-top: 45px;
+    margin-bottom: 55px;
+    font-size: 28px;
+    color: #6e6e6e;
+}
+.content .content_above p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #5d5d5d;
+}
+.content .content_middle{
+    height:420px;
+    background-color: #f6534f;
+    text-align: center;
+    overflow: hidden;
+}
+.box {
+    margin-top: 35px;
+}
+.box img{
+    width: 29.8%;
+    min-width: 120px;
+}
+.box .left_pic{
+    margin-right: 6.25%;
+}
+.content .content_middle h3{
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+.content .content_middle h5{
+    color:#D0D0D0;
+    font-size: 16px;
+}
+.content .content_bottom{
+    height:600px;
+    text-align: center;
+    overflow: hidden;
+}
+.content .content_bottom h3{
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    color: #6e6e6e;
+}
+.content .content_bottom h5{
+    color: #D0D0D0;
+    font-size: 16px;
+}
+.content .content_bottom .add{
+    width: 33%;
+    margin-top: 45px;
+    min-width: 200px;
+}
+footer{
+    height: 30px;
+    background-color: #f6534f;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width:800px){
+    .header .tab_pic{height:30px}
+    header .nav_bar{left: 75px;top: 0;}
+    header .nav_bar li{margin-right: 10px}
+    header .nav_bar li a{font-size: 12px}
+
+
+    .content .content_above{height: 150px}
+    .content .content_above h3{margin-top:23px;margin-bottom: 28px;font-size: 20px }
+    .content .content_above p{font-size: 10px}
+
+    .content .content_middle{height: 200px}
+    .content .content_middle h3{font-size: 20px }
+    .content .content_middle h5{font-size: 15px }
+
+    .content .content_bottom{height: 300px}
+    .content .content_bottom h3{font-size: 20px }
+    .content .content_bottom h5{font-size: 15px }
+    .content .content_bottom .add{margin-top: 20px}
+}
+@media screen and (min-width: 480px) and (max-width:800px){
+    .header .tab_pic{height:40px}
+    header .nav_bar{left: 95px;top: 5px;}
+    header .nav_bar li{margin-right: 15px}
+    header .nav_bar li a{font-size: 14px}
+
+
+    .content .content_above{height: 170px}
+    .content .content_above h3{margin-top:23px;margin-bottom: 28px;font-size: 20px }
+    .content .content_above p{font-size: 12px}
+
+    .content .content_middle{height: 220px}
+    .content .content_middle h3{font-size: 20px }
+    .content .content_middle h5{font-size: 15px }
+
+    .content .content_bottom{height: 320px}
+    .content .content_bottom h3{font-size: 20px }
+    .content .content_bottom h5{font-size: 15px }
+    .content .content_bottom .add{margin-top: 20px}
+}
+@media screen and (min-width: 560px) and (max-width:800px){
+    .header .tab_pic{height:50px}
+    header .nav_bar{left: 125px;top: 10px;}
+    header .nav_bar li{margin-right: 20px}
+    header .nav_bar li a{font-size: 16px}
+
+
+    .content .content_above{height: 190px}
+    .content .content_above h3{margin-top:23px;margin-bottom: 28px;font-size: 22px }
+    .content .content_above p{font-size: 14px}
+
+    .content .content_middle{height: 260px}
+    .content .content_middle h3{font-size: 22px }
+    .content .content_middle h5{font-size: 15px }
+
+    .content .content_bottom{height: 360px}
+    .content .content_bottom h3{font-size: 22px }
+    .content .content_bottom h5{font-size: 15px }
+    .content .content_bottom .add{margin-top: 20px}
+}
+@media screen and (min-width: 640px) and (max-width:800px){
+    .header .tab_pic{height:60px}
+    header .nav_bar{left: 150px;top: 10px;}
+    header .nav_bar li{margin-right: 25px}
+    header .nav_bar li a{font-size: 18px}
+
+
+    .content .content_above{height: 200px}
+    .content .content_above h3{margin-top:23px;margin-bottom: 28px;font-size: 24px }
+    .content .content_above p{font-size: 16px}
+
+    .content .content_middle{height: 280px}
+    .content .content_middle h3{font-size: 24px }
+    .content .content_middle h5{font-size: 16px }
+
+    .content .content_bottom{height: 400px}
+    .content .content_bottom h3{font-size: 24px }
+    .content .content_bottom h5{font-size: 16px }
+    .content .content_bottom .add{margin-top: 20px}
+}
+@media screen and (min-width: 720px) and (max-width:900px){
+    .header .tab_pic{height:70px}
+    header .nav_bar{left: 180px;top: 15px;}
+    header .nav_bar li{margin-right: 25px}
+    header .nav_bar li a{font-size: 20px}
+    .content .content_middle{height: 320px}
+    .content .content_bottom{height: 450px}
+}
+@media screen and (min-width: 800px) and (max-width:900px){
+    .content .content_above{height: 220px}
+    .content .content_above h3{margin-top:23px;margin-bottom: 28px;font-size: 26px }
+    .content .content_above p{font-size: 16px}
+
+    .content .content_middle{height: 350px}
+    .content .content_middle h3{font-size: 26px }
+    .content .content_middle h5{font-size: 16px }
+
+    .content .content_bottom{height: 500px}
+    .content .content_bottom h3{font-size: 26px }
+    .content .content_bottom h5{font-size: 16px }
+    .content .content_bottom .add{margin-top: 25px}
+}
